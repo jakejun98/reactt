@@ -1,0 +1,38 @@
+
+.App{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff;
+
+  .item {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .boxColor {
+      padding: 2px;
+      border: 1px solid #000;
+
+      &.red {
+        background-color: red;
+      }
+
+      &.blue {
+        background-color: blue;
+      }
+
+      &.yellow {
+        background-color: yellow;
+        color: #000;
+      }
+    }
+  }
+}
